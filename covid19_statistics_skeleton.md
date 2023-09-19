@@ -1,3 +1,7 @@
+import markdown
+
+def main():
+    code = """
 ```python
 def normalize_data(n_cases, n_people, scale):
     # TODO) Calculate the number of cases per its population
