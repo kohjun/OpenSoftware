@@ -36,6 +36,3 @@ for idx, covid in enumerate(n_covid):
     ratio = 100*covid/sum_covid
     print('| %s | %d | %.1f | %.1f |' % (regions[idx], covid, ratio,norm_covid[idx]))
 print()
-
-
-```
