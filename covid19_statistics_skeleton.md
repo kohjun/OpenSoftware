@@ -1,3 +1,4 @@
+```python
 def normalize_data(n_cases, n_people, scale):
     # TODO) Calculate the number of cases per its population
     norm_cases = []
@@ -36,3 +37,5 @@ for idx, covid in enumerate(n_covid):
     print('| %s | %d | %.1f | %.1f |' % (regions[idx], covid, ratio,norm_covid[idx]))
 print()
 
+
+```
