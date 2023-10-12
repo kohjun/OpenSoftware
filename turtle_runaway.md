@@ -49,7 +49,7 @@ class RunawayGame:
 
         #시간
         diff_time = time.time() - self.start_time  # 게임시작시 흘러간 시간에 처음시작시간을 뺀 시간
-   기
+   
     def __init__(self, canvas, step_move=10, step_turn=10):
         super().__init__(canvas)
         dist = random.randint(10,30)
@@ -65,7 +65,7 @@ class RunawayGame:
                 self.left(self.step_turn)
             elif mode == 2:
                 self.right(self.step_turn)
-
+                
 if __name__ == '__main__':
     # Use 'TurtleScreen' instead of 'Screen' to prevent an exception from the singleton 'Screen'
     root = tk.Tk()
