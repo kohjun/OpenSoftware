@@ -2,8 +2,8 @@
 # Please type '!python turtle_runaway.py' on IPython console in your Spyder.
 
 
-import tkinter as tk
-import turtle, random, time
+    import tkinter as tk
+    import turtle, random, time
 
     class RunawayGame:
         def __init__(self, canvas, runner, chaser, catch_radius=50):
